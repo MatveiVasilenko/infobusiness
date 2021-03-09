@@ -1,0 +1,22 @@
+@import "./../../variables.module.scss";
+
+.navigation {
+    color: $lightColor;
+    text-align: center;
+    & a {
+        display: block;
+        padding: 10px 0;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+        color: inherit;
+    }
+}
+.header {
+    background: $color;
+    color: $lightColor;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-left: 1px solid $lightColor;
+}
